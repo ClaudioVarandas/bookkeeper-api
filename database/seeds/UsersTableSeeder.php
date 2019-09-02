@@ -16,10 +16,8 @@ class UsersTableSeeder extends Seeder
         $user->name = 'Claudio Varandas';
         $user->email = 'cvarandas@gmail.com';
         $user->email_verified_at = now();
-        $user->password = bcrypt("1234");
+        $user->password = bcrypt("batatas");
         $user->save();
-
-        $user->rollApiKey();
 
     }
 }
